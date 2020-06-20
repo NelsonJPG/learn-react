@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex: 1 1 auto;
+    width: 32%;
+    padding: 30px 20px;
+    border: 1px dashed #454545;
+    margin: .5%;
+}
