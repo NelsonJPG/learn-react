@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+html {
+    display: flex;
+}
+
+body {
+    background-color: #86acdb;
+    color: #454545;
+}
+
+button {
+    padding: 10px;
+}
+
 .grid-container{
     display: flex;
     justify-content: start;
@@ -9,9 +22,14 @@
 }
 
 .grid-item {
-    flex: 1 1 auto;
     width: 32%;
     padding: 30px 20px;
     border: 1px dashed #454545;
     margin: .5%;
+}
+
+@media screen and (max-width:640px) {
+    .grid-item {
+        width: 100%;
+    }
 }
