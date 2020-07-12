@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './css/style.css';
+ import './css/style.css';
 import logo from './logo.svg';
 import ComponentFunctional from './components/fundamentals/ComponentFunctional';
 import ComponentClasses from './components/fundamentals/ComponentClasses';
@@ -15,6 +15,7 @@ import ComponentClassBinding from './components/fundamentals/ComponentClassBindi
 import ComponentClassConditionalRender from './components/fundamentals/ComponentClassConditionalRender';
 import ComponentFunctionalListRender from './components/fundamentals/ComponentFunctionalListRender';
 import ComponentClassFormControl from './components/fundamentals/ComponentClassFormControl';
+import ComponentClassLifeCycleMount from './components/fundamentals/ComponentClassLifeCycleMount';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <ComponentClassConditionalRender />
         <ComponentFunctionalListRender />
         <ComponentClassFormControl />
+        <ComponentClassLifeCycleMount />
       </main>
     </Fragment>
   );
