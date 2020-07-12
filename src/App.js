@@ -12,6 +12,9 @@ import ComponentSetState from './components/fundamentals/ComponentSetState';
 import ComponentFuntionalEventHandler from './components/fundamentals/ComponentFunctionalEventHandler';
 import ComponentClassEventHandler from './components/fundamentals/ComponentClassEventHandler';
 import ComponentClassBinding from './components/fundamentals/ComponentClassBinding';
+import ComponentClassConditionalRender from './components/fundamentals/ComponentClassConditionalRender';
+import ComponentFunctionalListRender from './components/fundamentals/ComponentFunctionalListRender';
+import ComponentClassFormControl from './components/fundamentals/ComponentClassFormControl';
 
 function App() {
   return (
@@ -32,7 +35,11 @@ function App() {
         <ComponentClassState />
         <ComponentSetState />
         <ComponentFuntionalEventHandler />
+        <ComponentClassEventHandler />
         <ComponentClassBinding />
+        <ComponentClassConditionalRender />
+        <ComponentFunctionalListRender />
+        <ComponentClassFormControl />
       </main>
     </Fragment>
   );

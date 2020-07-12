@@ -14,6 +14,7 @@ class ComponentClassBinding extends Component {
 
     clickButtonWithoutBind() {
         alert("event not binding");
+        this.setState({message: 'message passed by Button without bind'})
         console.log(this)
     }
 
