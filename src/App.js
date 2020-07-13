@@ -16,6 +16,7 @@ import ComponentClassConditionalRender from './components/fundamentals/Component
 import ComponentFunctionalListRender from './components/fundamentals/ComponentFunctionalListRender';
 import ComponentClassFormControl from './components/fundamentals/ComponentClassFormControl';
 import ComponentClassLifeCycleMount from './components/fundamentals/ComponentClassLifeCycleMount';
+import ComponentPureExplain from './components/fundamentals/ComponentPureExplain';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <ComponentFunctionalListRender />
         <ComponentClassFormControl />
         <ComponentClassLifeCycleMount />
+        <ComponentPureExplain />
       </main>
     </Fragment>
   );
